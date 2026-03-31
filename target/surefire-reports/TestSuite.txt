@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 31.521 s <<< FAILURE! - in TestSuite
+loginPageTitleTest(com.opencart.qa.tests.LoginPageTest)  Time elapsed: 5.586 s  <<< FAILURE!
+java.lang.AssertionError: expected [Account Login11] but found [Account Login]
+	at com.opencart.qa.tests.LoginPageTest.loginPageTitleTest(LoginPageTest.java:27)
+
