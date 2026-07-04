@@ -1,3 +1,24 @@
+# Eclipse / IDE
 .classpath
 .project
-.mvn
+.settings/
+.idea/
+*.iml
+
+# Maven build output
+target/
+
+# Test / reporting artifacts
+allure-results/
+allure-report/
+test-output/
+chaintest/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment & secrets
+.env
+*.pem
+*.key
