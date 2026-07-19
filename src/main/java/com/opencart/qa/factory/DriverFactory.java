@@ -98,7 +98,15 @@ public class DriverFactory {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
+
+		// Let -Dkey=value on the Maven/CI command line override config.properties (e.g. -Dheadless=true)
+		for (String key : prop.stringPropertyNames()) {
+			String override = System.getProperty(key);
+			if (override != null && !override.isBlank()) {
+				prop.setProperty(key, override);
+			}
+		}
+
 		return prop;
 	}
 	

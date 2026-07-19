@@ -9,7 +9,6 @@ import com.opencart.qa.utils.AppConstants;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
-import io.qameta.allure.Issue;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
@@ -36,7 +35,6 @@ public class LoginPageTest extends BaseTest {
 
 	@Description("checking forgot pwd link exist on the login page...")
 	@Severity(SeverityLevel.BLOCKER)
-	@Issue("BUG 9001: forgot pwd link is missing on the login page")
 	@Test
 	public void forgotPwdLinkExistTest() {
 		Assert.assertTrue(loginPage.isForgotPwdLinkExist());

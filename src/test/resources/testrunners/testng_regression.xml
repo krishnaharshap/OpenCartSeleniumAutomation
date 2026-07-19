@@ -20,30 +20,30 @@
 	</test>
 
 
-	<!-- <test name="Home Page Test">
+	<test name="Home Page Test">
 		<parameter name="browser" value="chrome" />
 
 		<classes>
 			<class name="com.opencart.qa.tests.HomePageTest" />
 		</classes>
-	</test> -->
+	</test>
 
 
-	<!-- <test name="Product Info Page Test">
+	<test name="Product Info Page Test">
 		<parameter name="browser" value="chrome" />
 
 		<classes>
 			<class name="com.opencart.qa.tests.ProductInfoPageTest" />
 		</classes>
 	</test>
-	
-	
+
+
 	<test name="Register Page Test">
 		<parameter name="browser" value="chrome" />
 
 		<classes>
 			<class name="com.opencart.qa.tests.RegisterPageTest" />
 		</classes>
-	</test> -->
+	</test>
 
 </suite>
