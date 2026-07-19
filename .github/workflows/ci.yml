@@ -1,5 +1,8 @@
 name: OpenCart Selenium Regression
 
+# Scoped to main only: PRs targeting main and pushes that land on main (merges), plus a manual
+# escape hatch. This repo is public, so ubuntu-latest minutes are free regardless of trigger
+# volume -- the scoping is about keeping the Actions tab readable, not about cost.
 on:
   push:
     branches: [main]
